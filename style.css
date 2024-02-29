@@ -7,7 +7,7 @@ body {
     background-color: #1F2937;
 }
 .header {
-    width: 800px;
+    width: 1000px;
     margin: auto;
     color: #F9FAF8;
     font-size: 24px;
@@ -41,38 +41,57 @@ body {
 
 .featured {
     background-color: #1F2937;
-    width: 800px;
+    width: 1000px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
 .welcome {
-
+    width: 50%;
+    color: #F9FAF8;
+    padding-bottom: 40px;
 }
 
 .imgplaceholder {
-
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background-color: #535353;
+    text-align: center;
+    line-height: 200px;
+    color: #F9FAF8;
 }
 
 .main {
     width: 800px;
     margin: auto;
+    text-align: center;
 }
 
 .cards{
-
+    display: flex;
 }
 
 .card {
-
+    
 }
 
 .imgplaceholder2 {
-
+    border-radius: 5px;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-color: #3882F6;
 }
 
 .quote{
     background-color: #E5E7EB;
     padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .quotetxt{
     width: 800px;
@@ -98,12 +117,11 @@ body {
     margin: auto;
     background-color: #3882F6;
     padding: 10px 40px 10px 40px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 80px;
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
-    
 }
 
 .c2atext {
@@ -116,6 +134,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.c2abutton button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-color: #E5E7EB;
 }
 
 .footer {
