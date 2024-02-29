@@ -1,0 +1,126 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.banner {
+    background-color: #1F2937;
+}
+.header {
+    width: 800px;
+    margin: auto;
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+
+}
+
+.menu {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+.welcome h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.main h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.featured {
+    background-color: #1F2937;
+    width: 800px;
+    margin: auto;
+}
+
+.welcome {
+
+}
+
+.imgplaceholder {
+
+}
+
+.main {
+    width: 800px;
+    margin: auto;
+}
+
+.cards{
+
+}
+
+.card {
+
+}
+
+.imgplaceholder2 {
+
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+.quotetxt{
+    width: 800px;
+    margin: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.quoter{
+    width: 800px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.c2a {
+    width: 800px;
+    margin: auto;
+    background-color: #3882F6;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+
+.c2atext {
+    color: #E5E7EB;
+    margin-left: 0px;
+}
+
+.c2abutton {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+    color: #F9FAF8;
+}
